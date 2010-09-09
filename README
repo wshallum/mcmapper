@@ -1,0 +1,44 @@
+README
+======
+
+This is mcmapper, it generates images of Minecraft[1] maps.
+
+Building
+--------
+
+To build from source, you need Maven 2.
+
+Run mvn assembly:assembly to build a jar with dependencies bundled.
+
+The jar target/mcmapper-VERSION-jar-with-dependencies.jar is an executable jar.
+
+On OS X it will automatically build an app package.
+
+To run, you need Java 6.
+
+Why another version?
+--------------------
+
+Because I can. Also because I wanted to learn Maven. Now people around the world
+can marvel at my ineptitude.
+
+Alternatives
+------------
+
+ * Cartograph for OS X (uses CoreImage instead of Corona)[2]
+ * Cartograph cleaned up[3]
+ * Pynemap[4]
+
+Thanks
+------
+
+Thanks to Zombuster for Cartograph[5].
+
+I took the colors and the "cartograph-like" rendering code from Cartograph.
+
+
+[1]: http://www.minecraft.net/
+[2]: http://www.minecraftforum.net/viewtopic.php?f=25&t=13134&start=990#p577204
+[3]: http://github.com/udoprog/cartography
+[4]: http://github.com/aheadley/pynemap
+[5]: http://www.minecraftforum.net/viewtopic.php?f=25&t=13134

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2010 William Shallum
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in
+  ~ all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  ~ THE SOFTWARE.
+  -->
+
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+    <dict>
+        <key>CFBundleName</key>
+        <string>MCMapper</string>
+        <key>CFBundleIdentifier</key>
+        <string>com.loumz.mcmapper.App</string>
+        <key>CFBundleVersion</key>
+        <string>${project.version}</string>
+        <key>CFBundleAllowMixedLocalizations</key>
+        <string>true</string>
+        <key>CFBundleExecutable</key>
+        <string>JavaApplicationStub</string>
+        <key>CFBundleDevelopmentRegion</key>
+        <string>English</string>
+        <key>CFBundlePackageType</key>
+        <string>APPL</string>
+        <key>CFBundleSignature</key>
+        <string>????</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleIconFile</key>
+        <string>GenericApp.icns</string>
+        <key>NSHumanReadableCopyright</key>
+        <string>&#xa9; 2010 William Shallum</string>
+        <key>Java</key>
+        <dict>
+            <key>MainClass</key>
+            <string>com.loumz.mcmapper.App</string>
+            <key>JVMVersion</key>
+            <string>1.6+</string>
+            <key>ClassPath</key>
+            <string>$JAVAROOT/mcmapper.jar:$JAVAROOT/sanselan.jar:$JAVAROOT/forms.jar</string>
+            <key>Properties</key>
+            <dict>
+                <key>apple.laf.useScreenMenuBar</key>
+                <string>true</string>
+            </dict>
+        </dict>
+    </dict>
+</plist>
